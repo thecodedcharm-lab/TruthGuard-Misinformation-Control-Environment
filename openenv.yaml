@@ -1,0 +1,16 @@
+name: TruthGuardEnv
+
+description: Environment for controlling misinformation spread
+
+entry_point: misinfo_env:MisinfoEnv
+
+tasks:
+
+  - name: easy
+    posts: 5
+
+  - name: medium
+    posts: 10
+
+  - name: hard
+    posts: 20
